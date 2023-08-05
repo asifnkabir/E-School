@@ -1,0 +1,50 @@
+.navbar img{
+    height: 80px;
+    width: 150px;
+    object-fit: contain;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+
+header, .banner {
+    background-color: rgb(172 246 172 / 44%);
+}
+
+.nav-link{
+    font-weight: 600;
+    color: rgb(54, 51, 51);
+}
+
+.nav-item {
+    transition: all 0.3s linear;
+    margin-left: 20px;
+}
+
+.nav-item:hover{
+    background-color: green;
+    border-radius: 20px;
+    color: white !important;
+    padding: 0 20px;
+}
+
+.nav-item:hover .nav-link{
+    color: white;
+}
+
+.nav-item:last-child{
+    background-color: green;
+    border-radius: 20px;
+    color: white !important;
+    padding: 0 20px;
+}
+
+.active{
+    border-bottom: 2px solid green;
+}
+
+
+
+/* .nav-link:last-child {
+    color: white;
+} */
