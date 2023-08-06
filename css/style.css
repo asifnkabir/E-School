@@ -43,6 +43,11 @@ header, .banner {
     border-bottom: 2px solid green;
 }
 
+/* .img-fluid{
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+} */
 
 
 /* .nav-link:last-child {
